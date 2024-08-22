@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">this is div</div>
+    </div>
+    <script>
+        var a= document.querySelector(".box");
+        a.addEventListener("click",function(){
+            a.innerHTML="I am changing ";
+            a.style.backgroundColor="red";
+            a.style.color="blue";
+            a.style.fontSize="34px";
+        })
+    </script>
+</body>
+</html>
